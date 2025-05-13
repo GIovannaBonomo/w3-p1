@@ -1,0 +1,46 @@
+.profilo {
+    width: 30px;
+    border-radius: 50%;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    background-color: #dbdbdb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.online1 {
+    background-color: blue;
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    top: 23%;
+    right: 52px;
+    border: 1px solid white;
+}
+.online2{
+    background-color: green;
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    bottom: 30%;
+    right: 12px;
+    border: 1px solid white;
+}
+#hero {
+    background-color: #6868e7;
+}
+
+#info  ul i{
+    background-color: lightsalmon;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
