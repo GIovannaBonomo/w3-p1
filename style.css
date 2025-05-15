@@ -55,27 +55,30 @@ main {
     }
   }
 
-.ciccio1{
+#carouselExample {
+    position: relative;
+}
+
+.tasto1,
+.tasto2 {
     background-color: lightgray;
     width: 40px;
     height: 40px;
     border-radius: 50%;
     position: absolute;
     top: 50%;
-    left: -3em;
     transform: translateY(-50%);
     z-index: 2;
 }
-.ciccio2{
-    background-color: lightgray;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    position: absolute;
-    right: -3em;
-    transform: translateY(-50%);
-    z-index: 2;
+
+.tasto1 {
+    left: -2.5em;
 }
-.fa, .fas, .fab, .far {
-  line-height: normal !important;
+
+.tasto2 {
+    right: -2.5em;
+}
+
+.carousel-inner {
+    overflow: visible!important;
 }
