@@ -82,3 +82,12 @@ main {
 .carousel-inner {
     overflow: visible!important;
 }
+.card:hover {
+    transform: scale(1.20);
+    box-shadow: 0 0 30px black;
+}
+.card {
+    transition: transform 0.3s ease;    
+}
+
+
