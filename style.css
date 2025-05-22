@@ -62,7 +62,7 @@ main {
 .tasto1,
 .tasto2 {
     background-color: lightgray;
-    width: 40px;
+    width: 20px;
     height: 40px;
     border-radius: 50%;
     position: absolute;
@@ -82,12 +82,40 @@ main {
 .carousel-inner {
     overflow: visible!important;
 }
+.carousel-control-prev{
+    width: 20px!important;
+}
+.carousel-control-next{
+    width: 40px!important;
+}
 .card:hover {
     transform: scale(1.20);
     box-shadow: 0 0 30px black;
 }
 .card {
     transition: transform 0.3s ease;    
+}
+#segnalibro{
+    position: relative;
+    z-index: 10;
+}
+#segnalibro i{
+    position: absolute;
+    top: -6px;
+    left: 68px;
+    z-index: 10;
+}
+#segnalibro i:first-child{
+    display: inline;
+}
+#segnalibro i:last-child{
+    display: none;
+}
+#segnalibro:hover i:first-child{
+    display: none;
+}
+#segnalibro:hover i:last-child{
+    display: inline;
 }
 
 
